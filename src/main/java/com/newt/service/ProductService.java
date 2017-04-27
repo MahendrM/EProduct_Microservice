@@ -13,4 +13,3 @@ public interface ProductService {
 
 	public Product findByProductName(String productName);
 }
-
