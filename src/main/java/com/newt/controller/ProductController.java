@@ -27,6 +27,7 @@ public class ProductController {
 		
 		return productService.findByproductId(productId);
 	}
+	
 
 	@RequestMapping(value = "search/name/{productName}", method = RequestMethod.GET)
 	@ApiOperation(value = "Find By ProductName")
