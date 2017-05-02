@@ -17,6 +17,7 @@ import com.wordnik.swagger.annotations.ApiOperation;
 @RequestMapping("/products")
 public class ProductController {
 
+	
 	@Autowired
 	ProductService productService;
 
