@@ -45,5 +45,6 @@ public class ProductController {
 	public Product create(@RequestBody Product car) {
 		return productService.save(car);
 	}
+	
 }
 
