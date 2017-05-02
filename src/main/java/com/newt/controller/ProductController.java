@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+
 import com.newt.model.Product;
 import com.newt.service.ProductService;
 import com.wordnik.swagger.annotations.ApiOperation;
